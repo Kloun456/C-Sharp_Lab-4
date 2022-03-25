@@ -1,0 +1,17 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Width="400" Height="300"
+        x:Class="Project.MainWindow"
+        Title="Project">
+<Grid ColumnDefinitions="100,1.5*,4*" RowDefinitions="Auto,Auto,Auto"  Margin="4">
+	<TextBlock Text="Login:" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center"  Margin="0,0,5,0" />
+    <TextBlock Text="Password:" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center"  Margin="0,0,5,0"/>
+	<TextBox Name="Login" Watermark="Enter your login" Grid.Row="0" Grid.Column="1"/> 
+	<TextBox Name ="Password" Watermark="Enter your password" Grid.Row="1" Grid.Column="1"/>
+	<Button Name ="SignUp" Click="SignUp_Click" Grid.Row="2" Grid.Column="1" Margin="0,5,80,0" HorizontalAlignment="Right" Width ="70">Sign up</Button>
+	<Button Name ="SignIn" Click="SignIn_Click" Grid.Row="2" Grid.Column="1" Margin="0,5,0,0" HorizontalAlignment="Right" Width="70">Sign in</Button>
+</Grid>
+    
+</Window>

@@ -1,0 +1,11 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Width="350" Height="70"
+        x:Class="Project.ErrorWindow"
+        Title="ErrorWindow">
+	<StackPanel Background="White" HorizontalAlignment="Center" VerticalAlignment="Top">
+		<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Name="Error" Text="1" />
+	</StackPanel>
+</Window>
